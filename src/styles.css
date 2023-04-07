@@ -24,21 +24,18 @@ body {
   width: 760px;
   max-width: 100%;
   margin: auto;
-<<<<<<< HEAD
   padding: 20px;
-=======
->>>>>>> 817a704 (Add bottom section)
 }
 
 .section {
   height: 450px;
   width: 100%;
-<<<<<<< HEAD
-=======
-  margin-top: 20px;
->>>>>>> 817a704 (Add bottom section)
   display: flex;
   justify-content: center;
   align-items: center;
   border: 1px solid black;
+}
+
+.section:first-child {
+  margin-top: 0;
 }
